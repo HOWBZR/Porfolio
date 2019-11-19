@@ -4,49 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Bio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
 </head>
-<body>
-   
-        <header>
-            <div id="myname">
-                <div id="logo">
-                    <h1>David Coons</h1>
-                </div>
-
-                <ul>
-                        <li>About</li>
-                        <li>Portfolio</li>
-                        <li>Contact</li>
-                    </ul>
+<body id="mainbackground">
+        <nav class="navbar navbar-light bg-light border-bottom">
+                <a class="navbar-brand" href="index.html">David Coons</a>
+                <a class="nav-item nav-link active" href="portfolio.html">Portfoio</a>
+                <a class="nav-item nav-link active" href="contact.html">Contact</a>
+                <form class="form-inline">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button type="button" class="btn btn-primary">Search</button>
+                  
+                </form>
+              </nav>
+    <div class="container">
+            
+            <div id="firstbox" class="row">
             </div>
-           
-        </header>
-   
-    <div class="wrapper">
+            
+            <div class="jumbotron">
+                <a href="https://www.linkedin.com/in/david-coons-7665459b"><img id="pictureofme" src="assets/images/Meseattle.jpg" alt="David Coons" class="rounded"></a>
+                    
+                    <p class="lead">^^Hey guys, that's me^^! A high-school jock, turned sales manager, turned software engineer. Not your typical progression eh?
+                      As a kid, I always wanted to figure out "how things worked". But as a kid, I also had the attention span of a gnat. 
+                      It took a while for me to really settle into to who I was, and that is someone who like to contribut to projects, build 
+                      things, and, well... at least attempt to be creative. 
+                    </p>
+                    <hr class="my-5">
+                    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            </div>
 
-            <section id="main-bio">
-                <div id="aboutme">
-                    <h2>About Me</h2>
-                        <section id="bio-image">
-                            <img src="assets/images/76849_176865798992796_3540135_n.jpg"/>
-                        </section>
-                         <p>
-                                This is my short paragraph. One day it will grow up to be a little bit taller.
-                         </p>
-                </div>
-            </section>
+            <div id="secondbox" class="row">
 
-        
+            </div>
+            
 
+                  <div class="container">
+                    <div class="fixed-bottom" id="footer">
+                        copyright
+                    </div>
+                  </div>              
     </div>
-        <footer>
-            <div>
-                copyright
-            </div>
-        </footer>
-
-
+    
+    
 </body>
 </html>
