@@ -3,11 +3,9 @@
 }
 
 #footer{
-  background-color: white;
   text-align: center;
-  height: 50px;
   background-color: gray;
-  padding-top: 15px;
+  padding-top: 25px;
   opacity: 90%;
   border-top: 5px solid #4aaaa5;
 }
@@ -25,9 +23,19 @@
   height: 60px;
 }
 
-
-
-
 #aboutmecontact{
   background: #4aaaa5;
+}
+
+#bodycontent{
+  background-color: white;
+}
+
+#cardtext{
+  text-align: center;
+}
+
+#card1{
+max-width: 100%;
+max-height: auto;
 }
